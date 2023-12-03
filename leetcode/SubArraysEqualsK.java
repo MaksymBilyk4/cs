@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Task3 {
+public class SubArraysEqualsK {
 
     // [7, 2, -5, 1, 1, -1, 5, -5], k = 5
     // find all sub arrays that equals in sum to k

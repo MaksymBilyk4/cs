@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Task1 {
+public class FindDuplicates {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 10, 6, 7, 8, 1};
         System.out.println(Arrays.toString(arr));
