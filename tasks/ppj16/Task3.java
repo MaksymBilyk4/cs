@@ -26,10 +26,9 @@ public class Task3 {
         int vectorIndex = 0;
 
         for (int i = 0; i < length; i++) {
-// тут проблема потому что мы не знаем как поставить на новой итерации максимально и минимальное значение
 
-            max = matrix[i][0];
-            min = matrix[i][0];
+            max = -1;
+            min = Integer.MAX_VALUE;
             for (int k = 0; k < length; k++) {
                 if (matrix[k][i] > max) {
                     max = matrix[k][i];
@@ -39,9 +38,9 @@ public class Task3 {
                 }
             }
             vector[vectorIndex] = min;
-            vectorIndex++;
+            ++vectorIndex;
             vector[vectorIndex] = max;
-            vectorIndex++;
+            ++vectorIndex;
         }
         System.out.println();
         System.out.println(Arrays.toString(vector));
