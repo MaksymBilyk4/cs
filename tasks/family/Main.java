@@ -12,8 +12,6 @@ public class Main {
         family.setPet(pet);
 
         System.out.println(family);
-
-
     }
 
 }
